@@ -58,7 +58,7 @@ def get_db():
 
 @app.get("/")
 def home():
-    return {"message": "Courses API version 1"}
+    return {"message": "Courses API version 2"}
 
 
 @app.get("/health")
